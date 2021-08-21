@@ -4,10 +4,6 @@ $(document).ready(function(){
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('toggleNAV');
     });
-    $(window).on('load-scroll', function(){
-        $('#toggleBTN').removeClass('fa-times');
-        $('.navbar').removeClass('toggleNAV');
-    });
 })
 
 //read more or less button
